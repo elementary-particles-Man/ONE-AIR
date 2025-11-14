@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head><meta charset="utf-8"><title>ONE-AIR</title></head>
+<head><meta charset="UTF-8"><title>ONE-AIR</title></head>
 <body>
-<h1>ONE-AIR Prototype</h1>
-<p>一次トリアージ UI（後でPWA化可）</p>
-</body>
-</html>
+<h1>ONE-AIR トリアージ</h1>
+<form action="/triage" method="post">
+  <label>MRZ:</label><br>
+  <textarea name="mrz" rows="4" cols="50"></textarea><br>
+  <button type="submit">送信</button>
+</form>
+</body></html>
